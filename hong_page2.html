@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>지브리 스튜디오 메인페이지</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Gothic+A1:wght@100;200;300;400&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            border-collapse: collapse;
+            text-decoration: none;
+        }
+        @font-face {
+        font-family: 'EBSJSKMedium';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/EBSJSKMedium.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        }
+            body{
+                background-color: #82add9;
+            }
+                .main{
+                    background-color: #78a65e;
+                    height: 90px;
+                    text-align: center;
+                    font-family: 'EBSJSKMedium';
+                    color: white;
+                    font-size: 40px;
+                }
+                .b_box{
+                    margin: 0 780px;
+                    padding: 20px 0 0 0;
+                }
+                .box{
+                    width: 300px;
+                    display: flex;
+                }
+                .dot1{
+                    text-align: center;
+                    font-family: 'EBSJSKMedium';
+                    color: white;
+                    font-size: 40px;
+                    float: left;
+                    margin: 0 5px 0 0;
+                }
+                a{
+                    color: inherit;
+                    text-decoration: none;
+                }
+                .dot2{
+                    float: left;
+                    margin: 0 0 0 5px;
+                }
+                .wrapper{
+                    width: 1440px;
+                    background-color: #004a70;
+                    margin: 0px auto;
+                }
+                    .header{
+                        font-family: 'EBSJSKMedium';
+                        background-color: #004a70;
+                        height: 30px;
+                        text-align: center;
+                        display: flex;
+                        padding: 20px 15px;
+                    }
+                    .nav{
+                        display: flex;
+                    }
+                    .nav li{ 
+                        font-size: 30px;
+                        color: white;
+                        margin: 0px 135px;
+                    }
+                    li a{
+                        color: inherit;
+                        text-decoration: none;
+                    }
+                    .nav li a{
+                        position: relative;
+                        padding: 0 0 4px;
+                    }
+                    .nav li a::after{
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 0;
+                        height: 3px;
+                        background: white;
+                        transition: all .5s ease-out;
+                    }
+                    .nav li a:hover::after{ width: 100%;}
+                    .contents{
+                        background-color: #004a70;
+                        width: 1440px;
+                    }
+                        .section1{
+                            background-image:url("image/ponyo003.png");
+                            width: 1440px;
+                            height: 779px;
+                        }
+                        .box1{
+                            font-family: 'Noto Sans KR', sans-serif;
+                            padding-top: 620px;
+                        }
+                            .box1 h2{
+                                color: white;
+                                font-size: 30px;
+                                text-align: center;
+                                margin-bottom: 18px;
+                            }
+                            .box1 h3{
+                                color: white;
+                                font-size: 25px;
+                                text-align: center;
+                                margin-bottom: 18px;
+                            }
+                        .section2{
+                            background-color: rgba(255, 255, 255, 0.300);
+                            padding: 20px;
+                        }
+                            .section2 ul{
+                                font-family: 'Noto Sans KR', sans-serif;
+                                font-size: 30px;
+                                color: white;
+                                text-align: center;
+                                margin: 100px;
+                            }
+                            .section2 li{
+                                padding: 10px ;
+                            }
+                 .footer{
+                        background-color: #78a65e;
+                        color: white;
+                        text-align: center;
+                        padding: 80px;
+                        letter-spacing: 5px;
+                }
+                     .footer h1{
+                        font-family: 'Noto Sans KR', sans-serif;
+                        font-size: 20px;
+                        font-weight: lighter;
+                        padding: 10px;
+                    }
+                    .footer h2{
+                        font-family: 'Noto Sans KR', sans-serif;
+                        font-size: 15px;
+                        font-weight: lighter;
+                        padding: 10px;
+                    }
+                        .footer h3{
+                            font-family: 'Noto Sans KR', sans-serif;
+                            font-size: 9px;
+                            font-weight: lighter;
+                        }
+                        .footer h4{
+                            font-family: 'Noto Sans KR', sans-serif;
+                            font-size: 9px;
+                            font-weight: lighter;
+                        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="b_box">
+            <div class="box">
+                <div class="dot1"><a href="hong_page2.html">지브리 스튜디오</a></div>
+                <div class="dot2"><a href="hong_page2.html"><img src="image/home.png"></a></div>
+            </div>
+            </div>
+    </div>
+    <div class="wrapper">
+        <div class="header">
+            <ul class="nav">
+                <li><a href="hong_page3.html">1 '지브리 스튜디오'</a></li>
+                <li><a href="hong_page4.html">2 지브리 대표 영화</a></li>
+                <li><a href="hong_page5.html">3 지브리 정보</a></li>
+            </ul>
+        </div>
+        <div class="contents">
+            <div class="section1">
+                <div class="box1">
+                    <h2>운명이라는게 있는거야.<br>괴로워도 운명을 바꿀 수는 없어.</h2>
+                    <h3>&lt;벼랑 위에 포뇨 2008&gt;</h3>
+                </div>
+            </div>
+            <div class="section2">
+                <ul>
+                    <li>세계적인 애니메이션 스튜디오 ‘지브리’</li>
+                    <li>‘지브리’는 과연 어떤 매력이 있기에 이렇게 많은 사람들에게 사랑 받고 있을까</li>
+                    <li>포근한 색조합과, 아날로그적인 분위기, 셀화로 이뤄진 장면들</li>
+                    <li>따뜻한 ‘지브리’에 대해 알아보자.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>지브리 스튜디오 홈페이지</h1>
+        <h2>menu : 1 ‘지브리스튜디오’ / 2 지브리 대표 영화 / 지브리 정보</h2>
+        <h3>made homepage : HONG JIHYUN / 2021.11.09</h3>
+        <h4>*공식 지브리 스튜디오 홈페이지가 아닙니다. 개인제작 홈페이지 입니다.</h4>
+    </div>
+</body>
+</html>
